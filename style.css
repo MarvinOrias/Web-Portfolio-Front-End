@@ -8,7 +8,6 @@
 
 .navbar{
 	background: #1F1D36;
-	font-size: 19px;
 }
 
 .nav-head{
@@ -18,7 +17,7 @@
 }
 
 .nav-link{
-	font-size: 17px;
+	font-size: 15px;
 }
 
 /*.head-h1{
@@ -29,13 +28,36 @@
 	background: linear-gradient(to right, #E9A6A6, #3F3351);
 }
 
-.head-h3{
-/*	font-family: 'Raleway', sans-serif;
+.head1-h3{
+	font-family: 'Raleway', sans-serif;
 	font-size: 60px;
-	text-indent: 50%;
-	font-weight: 800;
-	margin-top: 400px;*/
-	font-size: 20px;
+	font-weight: bold;
+	margin-top: 40px;
+	font-size: 70px;
+}
+
+.head2-h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	font-size: 70px;
+	text-indent: 6%;
+}
+
+.head3-h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	font-size: 70px;
+	text-indent: 8%;
+}
+
+.head4-h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	font-size: 70px;
+	text-indent: 10%;
 }
 
 /*.cloud{
@@ -47,6 +69,8 @@
 .raiden{
 	display: block;
 	margin-left: auto;
+	padding: 20px;
+	height: 700px;
 }
 
 .desc{
@@ -55,26 +79,32 @@
 
 .desc-l1{
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 70px;
+	font-size: 50px;
 	font-weight: 900;
 	display: block;
 	margin-top: 20px;
+	padding: 15px;
 }
 
 .tech{
+	padding: 10px;
 	height: 100px;
 }
 
 .desc-p1{
+	padding: 15px;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: 900;
-	display: inline;
+	display: inline-block;
 }
 
 .orias{
-	
-	height: 400px;
+	margin-top: 50px;
+	padding: 15px;
+	background: #EBCFC4;
+	border: 3px solid;
+	height: 370px;
 	margin-bottom: 20px;
 }
 
@@ -84,8 +114,8 @@
 	font-weight: bold;
 	text-align: center;
 	color: black;
-	padding-top: 15px;
-	padding: 10ox 0x;
+	margin: 10px;
+	padding: 15px;
 }
 
 .main-row{
@@ -93,13 +123,20 @@
 }
 
 .card-title{
+	margin: 8px;
+	padding: 10px;
 	color: black;
 	text-align: center;
 }
 
 .card{
 	background: #48426D;
+	padding: 10px;
 	border: 1px solid black;
+}
+
+.card-img{
+	padding: 10px;
 }
 
 .card-body{
@@ -112,7 +149,14 @@
 }
 
 .form-h2{
+	margin: 8px;
+	padding: 12px;
 	text-align: center;
+}
+
+.form-label{
+	margin: 8px;
+	padding: 12px;
 }
 
 .form-div{
@@ -124,6 +168,7 @@
 }
 
 .form-btn{
+	margin: 8px;
 	text-align: center;
 }
 
@@ -136,6 +181,7 @@
 }
 
 iframe{
+	width: 300px;
 	height: 500px;
 }
 
@@ -144,10 +190,14 @@ iframe{
 }
 
 .footer-h3{
+	margin: 8px;
+	padding: 10px;
 	text-align: center;
+	font-size: 20px;
 }
 
 .footer-social{
+	padding: 10px;
 	display: block;
 	text-align: center;
 	text-decoration: none;
@@ -155,6 +205,7 @@ iframe{
 }
 
 .footer-contact{
+	padding: 10px;
 	display: block;
 	text-align: center;
 }
