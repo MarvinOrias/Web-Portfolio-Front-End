@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=BIZ+UDMincho&family=Josefin+Sans:wght@100&family=Raleway:wght@100&family=Roboto+Condensed:wght@300&family=Russo+One&family=Shadows+Into+Light&family=Source+Code+Pro:wght@200&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+		<title>Capstone 1</title>
+	</head>
+
+	<body class="bg-secondary">
+
+		<div class="container-fluid">
+
+			<nav class="navbar row justify-content-evenly">
+				<div class="nav-head col-12 col-md-12">
+					<a href="" class="nav-link link-light text-decoration-none">Home
+					</a>
+					<a href="#about" class="nav-link link-light text-decoration-none">About
+					</a>
+					<a href="#project" class="nav-link link-light text-decoration-none">Projects</a>
+					<a href="#contact" class="nav-link link-light text-decoration-none">Contact</a>		
+				</div>
+			</nav>
+
+			<header class="row head-row">
+				
+					<div class="col-12 col-sm-12 col-md-6 order-sm-2 order-md-1 header-div p-3">
+						<img src="../../imgs/raiden.gif" class="img-fluid raiden">
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 order-sm-1 order-md-2">
+						<h3 class="head-h3 p-3">Just one more game.</h3>
+					</div>
+				
+			</header>
+
+			<div class="row desc">
+				<div class="col-sm-12 col-md-6 text-center" id="about">
+					<img src="imgs/orias1.png" class="img-fluid orias">
+				</div>
+				<div class="col-sm-12 col-md-6" id="about">
+					<label class="desc-l1">About me</label>
+					<p class="desc-p1">Hi, I am Marvin, and I'm 25 years old. I am interested in many things, not limited to: traveling, gaming, playing sports, watching. And I am a Full Stack Web Developer in the making.</p>
+					<label class="desc-l1">Tech Stack</label>
+					<img src="images/logo-bootstrap.png" class="img-fluid tech">
+					<img src="images/logo-css3.png" class="img-fluid tech">
+					<img src="images/logo-expressjs.png" class="img-fluid tech">
+					<img src="images/logo-git.png" class="img-fluid tech">
+					<img src="images/logo-gitlab-ci-cd.png" class="img-fluid tech">
+					<img src="images/logo-heroku.png" class="img-fluid tech">
+					<img src="images/logo-html5.png" class="img-fluid tech">
+					<img src="images/logo-javascript.png" class="img-fluid tech">
+					<img src="images/logo-mongodb.png" class="img-fluid tech">
+					<img src="images/logo-nodejs.png" class="img-fluid tech">
+					<img src="images/logo-postman.png" class="img-fluid tech">
+					<img src="images/logo-react.png" class="img-fluid tech">
+					<img src="images/logo-rest.png" class="img-fluid tech">
+					<img src="images/logo-sublime-text-3.png" class="img-fluid tech">
+				</div>
+			</div>
+
+			<main class="row main-row justify-content-evenly" id="project">
+					<h3 class="main-h3">Projects</h3>
+					<div class="col-sm-12 col-md-12 order-sm-2 card bg-light m-3" style="width: 18rem;">
+					  <img src="../../imgs/game.png" class="card-img-top card-img img-fluid" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">Front End Capstone</h5>
+					    <a href="orias_capstone1.html" class="btn btn-primary card-btn">Visit</a>
+					  </div>
+					</div>
+					<div class="col-sm-12 col-md-12 order-sm-3 card bg-light m-3" style="width: 18rem;">
+					  <img src="../../imgs/game.png" class="card-img-top card-img img-fluid" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">Back End Capstone</h5>
+					    <a href="#" class="btn btn-primary card-btn">Visit</a>
+					  </div>
+					</div>
+					<div class="col-sm-12 col-md-12 order-sm-1 card bg-light m-3" style="width: 18rem;">
+					  <img src="../../imgs/game.png" class="card-img-top card-img img-fluid" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">Full Stack Capstone</h5>
+					    <a href="#" class="btn btn-primary card-btn">Visit</a>
+					  </div>
+					</div>
+			</main>
+
+			<form class="row form-row" id="contact">
+				<h2 class="form-h2">Hit me up</h2>
+			  <div class="col form-div">
+			  	<div class="mb-3">
+			  	  <label for="name" class="form-label">Your Name</label>
+			  	  <input type="name" class="form-control" id="name" required>
+			  	</div>
+			  	<div class="mb-3">
+			  	  <label for="email" class="form-label">Email</label>
+			  	  <input type="email" class="form-control" id="email" required>
+			  	</div>
+			  	<div class="mb-3">
+			  		<label for="tarea" class="form-label">Any suggestions?</label>
+			  		<textarea id="tarea" class="form-control" rows="10">
+			  		</textarea>
+			  	</div>
+			  	<div class="form-btn">
+			  		<button type="submit" class="btn btn-primary" >Submit</button>
+			  		<button type="reset" class="btn btn-primary">Clear</button>
+
+			  	</div>
+			  </div>
+			  <div class="col iframe">
+			  	<iframe class="mt-3 w-75" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7718.61947514144!2d121.03429200000001!3d14.695068000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0d7fa4c24eb%3A0x17303e5766459535!2sLeon%20Cleofas%20Street%2C%20Novaliches%2C%20Quezon%20City%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1650330301153!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			  </div>
+
+			</form>
+
+			<footer class="row footer-row">
+				<div class="col">
+					<h3 class="footer-h3">Social accounts</h3>
+					<a href="" class="footer-social">Facebook</a>
+					<a href="" class="footer-social">Twitter</a>
+					<a href="" class="footer-social">Instagram</a>
+				</div>
+				<div class="col">
+					<h3 class="footer-h3">Contacts</h3>
+					<label class="footer-contact">+63 926 067 7600</label>
+					<label class="footer-contact">djmo0285@gmail.com</label>
+				</div>
+			</footer>
+
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	</body>
+</html>
