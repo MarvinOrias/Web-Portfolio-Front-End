@@ -107,7 +107,7 @@ html{
 .orias{
 	margin-top: 50px;
 	padding: 15px;
-	background: #EBCFC4;
+	background: white;
 	border: 3px solid;
 	height: 370px;
 }
@@ -118,7 +118,6 @@ html{
 	font-weight: bold;
 	text-align: center;
 	color: black;
-	margin: 6px;
 	padding: 15px;
 }
 
@@ -155,6 +154,7 @@ html{
 .form-h2{
 	margin: 6px;
 	padding: 12px;
+	text-align: center;
 }
 
 .form-label{
