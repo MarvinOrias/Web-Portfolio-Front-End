@@ -36,9 +36,10 @@ html{
 
 .head1-h3{
 	font-family: 'VT323', monospace;
-	font-size: 195px;
+	font-size: 180px;
 	font-weight: bold;
 	text-shadow: 0px 15px black;
+	margin-top: 120px;
 	margin-left: 50px;
 	animation: blinkingText1 1s steps(5, start) infinite;
 }
@@ -208,12 +209,14 @@ html{
 }
 
 .x-div{
-	background-image: url("imgs/field.jpg");
+	/*background-image: url("imgs/field.jpg");*/
 	text-align: center;
+	width: 300px;
+	height: 100%;
 }
 
 .x-img{
-	height: 330px;
+	height: 300px;
 }
 
 .x-link{
@@ -227,13 +230,15 @@ html{
 }
 
 .zero-div{
-	background-image: url("imgs/field.jpg");
+	/*background-image: url("imgs/field.jpg");*/
 	text-align: center;
+	width: 300px;
+	height: 100%;
 }
 
 .zero-img{
-	margin-top: 46.5px;
-	height: 330px;
+	margin-top: 7px;
+	height: 300px;
 }
 
 .zero-link{
@@ -248,12 +253,15 @@ html{
 
 
 .sigma-div{
-	background-image: url("imgs/field.jpg");
+	/*background-image: url("imgs/field.jpg");*/
 	text-align: center;
+	width: 300px;
+	height: 100%;
 }
 
 .sigma-img{
 	height: 330px;
+	margin-bottom: -20px;
 }
 
 .sigma-link{
@@ -323,6 +331,7 @@ html{
 iframe{
 	padding: 12px;
 	height: 300px;
+	width: 300px;
 }
 
 .form-border{
