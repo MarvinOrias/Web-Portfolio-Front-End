@@ -52,7 +52,12 @@ html{
 
 .head1-a{
 	text-decoration: none;
-	color: #FFE863
+	color: #FFE863;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 130px;
 }
 
 .head1-a:hover{
@@ -87,7 +92,9 @@ html{
 
 .raiden{
 	display: block;
-	margin:  auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -40px;
 	padding: 15px;
 	height: 600px;
 }
