@@ -9,11 +9,32 @@ html{
 	box-sizing: border-box;
 	color: white;
 	font-family: 'Russo One', monospace;
-	background-color: #AA98A2;
+	animation: body-anm 3s forwards;
+}
+
+@keyframes body-anm{
+	0%{
+		opacity: 0%;
+		background-color: #D0B9BF;
+	}
+	100%{
+		background-color: #AA98A2;
+	}
 }
 
 .navbar{
 	background: #1F1D36;
+	animation: navbar-anm 3s;
+}
+
+@keyframes navbar-anm{
+	0%{
+		opacity: 0%;
+		transform: scale(2.0);
+	}
+	100%{
+		opacity: 100%;
+	}
 }
 
 .nav-head{
@@ -32,6 +53,17 @@ html{
 
 .head-row{
 	background: linear-gradient(to right, #E9A6A6, #3F3351);
+	animation: head-row-anm 3s;
+}
+
+@keyframes head-row-anm{
+	0%{
+		opacity: 0%;
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
 }
 
 .head1-h3{
@@ -91,6 +123,7 @@ html{
 }
 
 .raiden{
+	background-attachment: fixed;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -101,7 +134,19 @@ html{
 
 .desc{
 	background: linear-gradient(to right, #FFE3E3, #1F1D36);
+	animation: desc-anm 3s;
 }
+
+@keyframes desc-anm{
+	0%{
+		opacity: 0%;
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+
 
 .arrow-img{
 	width: 80px;
@@ -215,6 +260,21 @@ html{
 	border: 0PX;
 }*/
 
+#project{
+	animation: proj-anm 3s;
+}
+
+@keyframes proj-anm{
+	0%{
+		opacity: 0%;
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+
+
 .x-div{
 	/*background-image: url("imgs/field.jpg");*/
 	text-align: center;
@@ -281,6 +341,21 @@ html{
 	color: #FFE863;
 }
 
+#contact {
+	animation: cntct-anm 3s;
+}
+
+@keyframes cntct-anm{
+	0%{
+		opacity: 0%;
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+
+
 .form-h2{
 	font-size: 70px;
 	color: #FFE863;
@@ -344,6 +419,20 @@ iframe{
 .form-border{
 
 }
+
+.footer{
+	animation: footer-anm 3s;
+}
+
+@keyframes footer-anm{
+	0%{
+		opacity: 0%;
+		transform: scale(2.0);
+	}
+	100%{
+	}
+}
+
 
 .footer-row{
 	background: #1F1D36;
